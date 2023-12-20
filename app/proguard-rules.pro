@@ -1,0 +1,3 @@
+-obfuscationdictionary app_r8.txt
+-classobfuscationdictionary app_r8.txt
+-packageobfuscationdictionary app_r8.txt
