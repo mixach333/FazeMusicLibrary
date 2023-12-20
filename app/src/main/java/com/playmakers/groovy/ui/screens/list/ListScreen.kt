@@ -174,7 +174,7 @@ fun SidebarContent(context: Context) {
             onOptionClick = {
                 val intent = Intent(Intent.ACTION_SEND).apply {
                     type = "message/rfc822"
-                    putExtra(Intent.EXTRA_EMAIL, arrayOf("example@gmail.com"))
+                    putExtra(Intent.EXTRA_EMAIL, arrayOf("lsemenenko08@gmail.com"))
                     putExtra(Intent.EXTRA_SUBJECT, "Feedback")
                     putExtra(Intent.EXTRA_TEXT, "Hello dear team of developers of music player")
                 }
